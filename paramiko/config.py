@@ -215,7 +215,6 @@ class SSHConfig(object):
                 ("%r", remoteuser),
             ],
             "proxycommand": [
-                ("~", homedir),
                 ("%h", config["hostname"]),
                 ("%p", port),
                 ("%r", remoteuser),
